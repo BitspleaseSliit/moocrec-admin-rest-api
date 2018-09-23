@@ -63,4 +63,4 @@ interface ICourse extends Document {
     courseScore: Number;
 };
 
-export const CoursesModel: Model<ICourse> = model<ICourse>('Course', CourseSchema)
+export const CourseModel: Model<ICourse> = model<ICourse>('Course', CourseSchema)
