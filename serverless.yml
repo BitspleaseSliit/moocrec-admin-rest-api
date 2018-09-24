@@ -19,3 +19,12 @@ functions:
       - http:
           method: get
           path: hello
+          cors: true
+
+  getCourses:
+    handler: courses/handler.getCourses
+    events:
+      - http:
+          method: get
+          path: courses/{type}
+          cors: true

@@ -51,7 +51,7 @@ var CourseSchema: Schema = new Schema({
     }
 });
 
-interface ICourse extends Document {
+export interface ICourse extends Document {
     name: string;
     provider: string;
     courseUrl: string;
